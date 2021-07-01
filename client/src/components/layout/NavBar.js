@@ -53,7 +53,7 @@ function NavBar() {
 
         <Nav className="">
           <Nav.Link className="font-weight-bolder text-white">
-            Welcome {username}
+            Welcome {username.toUpperCase()}
           </Nav.Link>
           <Button
             variant="danger"
