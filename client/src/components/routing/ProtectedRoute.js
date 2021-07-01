@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Route, Redirect } from "react-router-dom";
-import { AuthContext, authContext } from "../../contexts/AuthContext";
+import { AuthContext } from "../../contexts/AuthContext";
 import Spinner from "react-bootstrap/Spinner";
 import { SpinnerStyle } from "../../styles/Spinner.style";
 import NavBar from "../layout/NavBar";

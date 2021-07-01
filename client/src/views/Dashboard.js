@@ -26,7 +26,6 @@ function Dashboard() {
   const {
     postState: { post, posts, postsLoading },
     getPosts,
-    showAddPostModal,
     setShowAddPostModal,
     showToast: { show, message, type },
     setShowToast,

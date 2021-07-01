@@ -26,7 +26,7 @@ function RegisterForm() {
   //REGISTER
   const register = async (e) => {
     e.preventDefault();
-    if (password != confirmPassword) {
+    if (password !== confirmPassword) {
       setAlert({ type: "danger", message: "Passwords do not match" });
       setRegisterForm({ ...registerForm, password: "", confirmPassword: "" });
       setTimeout(() => setAlert(null), 4000);
