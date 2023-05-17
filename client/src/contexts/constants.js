@@ -1,6 +1,6 @@
 export const apiUrl =
 	process.env.NODE_ENV !== "production"
-		? "https://localhost:8000/api"
+		? "http://localhost:8000/api"
 		: "https://bloc-sorry-47497.herokuapp.com/api";
 
 export const LOCAL_STORAGE_TOKEN_NAME = "note-app";
